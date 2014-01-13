@@ -22,7 +22,7 @@ Or, if you added the your go workspace's bin directory on PATH, you can execute 
 
 	$ gofmtchk
 
-If three are go files that have to be formatted, the following message would be shown.
+If there are go files that have to be formatted, the following message would be shown.
 
 	The following go files have to be formatted:
 
