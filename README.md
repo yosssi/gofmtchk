@@ -2,7 +2,7 @@
 
 [![Build Status](https://drone.io/github.com/yosssi/gofmtchk/status.png)](https://drone.io/github.com/yosssi/gofmtchk/latest)
 
-gofmtchk is a tool for checking if the specific package's go files are formatted.
+gofmtchk is a tool for checking if the specific package's go files are formatted by `gofmt` command.
 
 ## Installation
 
