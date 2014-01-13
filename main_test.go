@@ -1,7 +1,7 @@
 package main
 
 import (
-"github.com/yosssi/gocmd"
+	"github.com/yosssi/gocmd"
 	"os/exec"
 	"testing"
 )

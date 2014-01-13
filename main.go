@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/yosssi/gocmd"
+	"os"
 	"os/exec"
 	"strings"
 )
@@ -39,7 +40,7 @@ func main() {
 		fmt.Println(target)
 	}
 	fmt.Println("")
-	panic("There are the go files to be formatted.")
+	os.Exit(1)
 }
 
 func convOutputToStrings(output []byte) []string {
